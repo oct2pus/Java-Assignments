@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:controller="studentregistration.ButtonController"  id="AnchorPane" prefHeight="223.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="3.0" prefHeight="263.0" prefWidth="357.0">
+         <children>
+            <Button fx:id="btnExit" layoutX="100.0" layoutY="220.0" mnemonicParsing="false" text="Exit" onAction="#exitPressedAction" />
+            <Button fx:id="btnReg" layoutX="20.0" layoutY="220.0" mnemonicParsing="false" text="Register" onAction="#regPressedAction" />
+            <Label fx:id="lFeedback" layoutX="20.0" layoutY="192.0" />
+            <Label fx:id="lFN" layoutX="14.0" layoutY="46.0" text="First Name:" />
+            <Label fx:id="lLN" layoutX="14.0" layoutY="83.0" text="Last Name:" />
+            <TextField fx:id="tfFN" layoutX="163.0" layoutY="41.0" />
+            <TextField fx:id="tfLN" layoutX="163.0" layoutY="78.0" />
+            <TextField fx:id="tfYOB" layoutX="163.0" layoutY="115.0" />
+            <Label fx:id="lYOB" layoutX="14.0" layoutY="120.0" text="Year of Birth:" />
+            <Label fx:id="lPass" layoutX="14.0" layoutY="156.0" text="Temporary Password:" />
+            <TextField fx:id="tfPass" editable="false" layoutX="163.0" layoutY="151.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

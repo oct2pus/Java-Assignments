@@ -59,7 +59,8 @@ Continue? (y/n): n
 				months;
 		
 		nf.setMaximumFractionDigits(2);
-
+		
+		System.out.println("!!" + (Math.random() * 10 + 100) + "!!");
 		
 		System.out.println("Welcome to Loan Calculator");
 		System.out.print("DATA ENTRY\n");
