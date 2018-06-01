@@ -1,0 +1,3 @@
+Name	Country	Eye Color	Skills
+Sinny Greg	Spain	Green	 HTML SQL
+Sa Greg	Canada	Brown	 Android
