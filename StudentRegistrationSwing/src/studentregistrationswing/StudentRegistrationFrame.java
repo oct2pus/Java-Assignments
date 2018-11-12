@@ -129,8 +129,8 @@ public class StudentRegistrationFrame extends javax.swing.JFrame {
 	
 	private void registerButtonClicked() {
 		String firstName = tfFN.getText(),
-			   lastName = tfLN.getText(),
-			   YearOfBirth = tfYOB.getText();
+			lastName = tfLN.getText(),
+		     YearOfBirth = tfYOB.getText();
 		
 		if (!firstName.isEmpty() && !lastName.isEmpty() && !YearOfBirth.isEmpty()
 			&& firstName.matches("[a-zA-Z]+")
