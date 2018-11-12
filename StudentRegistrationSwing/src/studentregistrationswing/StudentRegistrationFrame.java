@@ -37,11 +37,11 @@ public class StudentRegistrationFrame extends javax.swing.JFrame {
 	
 	public StudentRegistrationFrame() {
         try {
-            UIManager.setLookAndFeel(
-                    UIManager.getSystemLookAndFeelClassName());
+        	UIManager.setLookAndFeel(
+                	UIManager.getSystemLookAndFeelClassName());
         } catch (ClassNotFoundException | InstantiationException |
-                 IllegalAccessException | UnsupportedLookAndFeelException e) {
-            System.out.println(e);
+        	IllegalAccessException | UnsupportedLookAndFeelException e) {
+        	System.out.println(e);
         }
         initComponents();
     }
@@ -50,8 +50,8 @@ public class StudentRegistrationFrame extends javax.swing.JFrame {
 	{
 		// Frame manipulation
 		setTitle("Student Registration");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationByPlatform(true);
+        	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        	setLocationByPlatform(true);
 		Dimension programSize = new Dimension(400, 160);
 		Dimension dTF = new Dimension(164, 18);
 		setPreferredSize(programSize);
@@ -76,7 +76,6 @@ public class StudentRegistrationFrame extends javax.swing.JFrame {
 		pBTN.add(btnExit);
 		
 		//TextFields
-		
 		tfFN.setPreferredSize(dTF);
 		tfFN.setMinimumSize(dTF);
 		tfLN.setPreferredSize(dTF);
@@ -114,7 +113,6 @@ public class StudentRegistrationFrame extends javax.swing.JFrame {
 		gbTF.setConstraints(tfTP, getConstraints(1, 3));
 
 		// Set pPane
-		
 		pPane.add(pTF);
 		gbLayout.setConstraints(pTF, getConstraints(0,0));
 		
@@ -166,9 +164,9 @@ public class StudentRegistrationFrame extends javax.swing.JFrame {
     }
 	
 	public static void main(String[] args) {
-        java.awt.EventQueue.invokeLater(() -> {
-            JFrame frame = new StudentRegistrationFrame();
-        });	
+        	java.awt.EventQueue.invokeLater(() -> {
+        		JFrame frame = new StudentRegistrationFrame();
+        	});	
 	}
 	
 }
