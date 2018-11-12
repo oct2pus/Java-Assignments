@@ -17,26 +17,23 @@ import java.awt.Insets;
 import javax.swing.*;
 
 public class StudentRegistrationFrame extends javax.swing.JFrame {
-
-	/**
-	 * @param args the command line arguments
-	 */
-	JPanel pPane = new JPanel(),
-		   pBTN = new JPanel(),
-		   pTF = new JPanel();
+	
+	JPanel  pPane = new JPanel(),
+		pBTN = new JPanel(),
+		pTF = new JPanel();
 	JButton btnReg = new JButton(),
-			btnExit = new JButton();
+		btnExit = new JButton();
 	JLabel  lFN = new JLabel(),
-			lLN = new JLabel(),
-			lYOB = new JLabel(),
-			lTP = new JLabel(),
-			lInfo = new JLabel();
+		lLN = new JLabel(),
+		lYOB = new JLabel(),
+		lTP = new JLabel(),
+		lInfo = new JLabel();
 	JTextField tfFN = new JTextField(),
-			   tfLN = new JTextField(),
-			   tfYOB = new JTextField(),
-			   tfTP = new JTextField();
+		   tfLN = new JTextField(),
+		   tfYOB = new JTextField(),
+		   tfTP = new JTextField();
 	GridBagLayout gbLayout = new GridBagLayout(),
-				  gbTF = new GridBagLayout();
+		      gbTF = new GridBagLayout();
 	
 	public StudentRegistrationFrame() {
         try {
